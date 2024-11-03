@@ -1,0 +1,60 @@
+/*
+Hi! I'm a comment too! Let's explore how to style your website with CSS (cascade style sheets).
+CSS is a language that describes the style of an HTML document. CSS describes how HTML elements should be displayed by the browser
+*/
+
+body {
+    /* 
+    In here, we are telling the browser to align the text in the center of the page.
+    The line "body { " is called a selector. It selects the HTML element you want to style.
+    To select and element you can use the element name, class name (prefixed with . ) or id name (prefixed with #).
+    Don't worry if you don't understand this yet, you will get the hang of it as you practice!
+    
+    You can also set the background colour to something different if you'd like -  just 
+    replace #f0f0f0 with the colour you want, which you can find by searching for "hex colour picker" online.
+     */
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.main-section {
+    /* 
+    This selector is for the class "main-section" in index.html
+    We are telling the browser to add a margin of 20px (20 pixels) to the top and bottom of the element with this class.
+    max-width: 600px; is setting the maximum width of the inner to 600 pixels, so it doesn't stretch too wide on big screens.
+    width: 100%; is setting the width of the element to 100% of the "parent" (outer) element, so it takes up the full width of the page.
+    */
+    margin: 20px 0;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+a {
+    /* 
+    This selector is for the anchor tag (a) in index.html. Anchor tags are used for links. We'll make our links red and underlined, 
+    but as usual you can change this to any colour you like!
+    */
+    color: red;
+    text-decoration: underline;
+}
+
+a:hover {
+    /*
+    This selector is for the anchor tag (a) in index.html when it is hovered over. We'll make the link wavey!
+    */
+    text-decoration-style: wavy;
+    text-decoration-skip-ink: none;
+}
+
+.profile-pic {
+    /*
+    This selector is for the class "profile-pic" in index.html. We are setting the width of the image to 100px and the height to 100px.
+    We are also setting the border-radius to 50% to make the image a circle.
+    */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* We'll add a margin to the top of the image to give it some space from the text below it */
+    margin-top: 16px;
+}
