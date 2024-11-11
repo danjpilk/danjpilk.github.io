@@ -41,7 +41,7 @@ a {
 
 a:hover {
     /*
-    This selector is for the anchor tag (a) in index.html when it is hovered over. We'll make the link wavey!
+    This selector is for the anchor tag (a) in index.html when it is hovered over (an anchor is just a link). We'll make the link wavey!
     */
     text-decoration-style: wavy;
     text-decoration-skip-ink: none;
@@ -50,7 +50,8 @@ a:hover {
 .profile-pic {
     /*
     This selector is for the class "profile-pic" in index.html. We are setting the width of the image to 100px and the height to 100px.
-    We are also setting the border-radius to 50% to make the image a circle.
+    Images are assumed to be a square, so you should crop them as such before using one.
+    We are also setting the border-radius to 50% to make the image a circle. Lower his to make it a rounded square
     */
     width: 150px;
     height: 150px;
