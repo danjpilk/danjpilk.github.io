@@ -14,7 +14,7 @@ body {
     replace #f0f0f0 with the colour you want, which you can find by searching for "hex colour picker" online.
      */
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #33cccc;
 }
 
 .main-section {
@@ -35,7 +35,7 @@ a {
     This selector is for the anchor tag (a) in index.html. Anchor tags are used for links. We'll make our links red and underlined, 
     but as usual you can change this to any colour you like!
     */
-    color: red;
+    color: #ff9333;
     text-decoration: underline;
 }
 
