@@ -15,7 +15,7 @@ body {
      */
     text-align: center;
     background-color: #33cccc;
-    background: linear-gradient(90deg, #ff9696, #ffffff); /* comment here */ 
+    background: linear-gradient(-90deg, #ff9696, #ffaaaa); /* comment here */ 
 }
 
 .main-section {
@@ -36,8 +36,9 @@ a {
     This selector is for the anchor tag (a) in index.html. Anchor tags are used for links. We'll make our links red and underlined, 
     but as usual you can change this to any colour you like!
     */
-    color: #C8A2C8;
+    color: #d83c0d;
     text-decoration: underline;
+    
 }
 
 a:hover {
@@ -46,6 +47,11 @@ a:hover {
     */
     text-decoration-style: wavy;
     text-decoration-skip-ink: none;
+}
+
+a:visited {
+    /* Visited Links */
+    color: #A020F0
 }
 
 .profile-pic {
@@ -64,6 +70,6 @@ a:hover {
 /* Now we'll add a hover animation on the profile picture to make it slightly larger when your mouse is over it. This animation will last 0.3seconds */
 .profile-pic:hover {
     /* We'll use the transform property to scale the image up by 10% */
-    transform: scale(1.1);
-    transition: transform 0.3s;
+    transform: scale(1.2);
+    transition: transform 0.35s;
 }
