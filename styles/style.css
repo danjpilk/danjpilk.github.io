@@ -59,3 +59,16 @@ a:hover {
     /* We'll add a margin to the top of the image to give it some space from the text below it */
     margin-top: 16px;
 }
+
+/* Now we'll add a hover animation on the profile picture to make it slightly larger when your mouse is over it. This animation will last 0.3seconds */
+.profile-pic:hover {
+    /* We'll use the transform property to scale the image up by 10% */
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+/* We can also style the background of our page. Let's try making it a gradient! */
+body {
+    /* Try changing the colours to see what happens! */
+    background: linear-gradient(90deg, #ff9696, #ffffff);
+}
