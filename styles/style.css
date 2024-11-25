@@ -50,7 +50,7 @@ a:hover {
 }
 
 a:visited {
-    /* Visited Links */
+    /* Visited Links, colour hexcode is for when the links are clicked on*/
     color: #A020F0
 }
 
